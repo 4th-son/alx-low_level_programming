@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 /**
  * main - Entry point
  *
@@ -7,17 +6,10 @@
  */
 int main(void)
 {
-
-	  int integerType;
-    float floatType;
-    double doubleType;
-    char charType;
-
-    // Sizeof operator is used to evaluate the size of a variable
-    printf("Size of int: %ld bytes\n",sizeof(integerType));
-    printf("Size of float: %ld bytes\n",sizeof(floatType));
-    printf("Size of double: %ld bytes\n",sizeof(doubleType));
-    printf("Size of char: %ld byte\n",sizeof(charType));
-
-    return (0);
+	printf("Size of a char: &d byte(s)", sizeof(char));
+	printf("Size of an int: &d byte(s)", sizeof(int));
+	printf("Size of a long int: &d byte(s)", sizeof(long int));
+	printf("Size of a long long int: &d byte(s)", sizeof(long long int));
+	printf("Size of a float: &d byte(s)", sizeof(float));
+	return (0);
 }
