@@ -17,7 +17,7 @@ int main(void)
 	if (lst_dgit > 5)
 		printf("last digit of %d and %d is greater than 5\n", n, lst_dgit);
 	else if (lst_dgit == 0)
-		printf("last digit of %d is %d and if equal to zero\n", n, lst_dgit);
+		printf("last digit of %d is %d and is equal to zero\n", n, lst_dgit);
 	else if (lst_dgit < 6)
 		printf("last digit of %d is %d and is less than six not zero\n", n, lst_dgit);
 
