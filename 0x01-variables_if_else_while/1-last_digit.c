@@ -20,6 +20,6 @@ int main(void)
 		printf("last digit of %d is %d and if equal to zero\n", n, lst_dgit);
 	else if (lst_dgit < 6)
 		printf("last digit of %d is %d and is less than six not zero\n", n, lst_dgit);
-	
+
 	return (0);
 }
