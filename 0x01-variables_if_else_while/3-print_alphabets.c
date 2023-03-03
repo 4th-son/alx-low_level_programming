@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <stdlib.h>
 
 /**
  * main - main block
@@ -13,20 +12,19 @@ int main(void)
 {
 
 	char c = 'a';
-
 	while (c <= 'z')
-
 	{
 		putchar(c);
 		c++;
 	}
-	 c = 'A';
+
+	c = 'A';
 
 	while (c <= 'Z')
 
 		putchar (c);
 		c++;
 
-		putchar ('\n')
-		return (0);
+	putchar ('\n');
+	return (0);
 }
