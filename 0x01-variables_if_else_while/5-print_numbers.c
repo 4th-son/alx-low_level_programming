@@ -1,10 +1,11 @@
 #include <stdlib.h>
 #include <time.h>
-#include <time.h>
+#include <stdio.h>
 /* main - main block
  * Description: prints all single number of base 10
  * starting from 0 followed by a new line
- * Return 0 */
+ * Return 0 
+ * */
 int main(void)
 {
 	char c = '0';
